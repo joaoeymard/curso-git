@@ -84,4 +84,14 @@ $ git branch $1
 
 $1 = Nome da nova branch.
 
+### git checkout
+
+Muda para branch (galho) da sua árvore:
+
+```
+$ git checkout $1
+```
+
+$1 = Nome da nova branch
+
 
