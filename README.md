@@ -1,10 +1,15 @@
-# curso-git
+# Comandos GIT
 
-Comandos GIT
+### git clone
 
-```$ git clone https://...```
-Realiza o download do repositório.
+Realiza o download do repositório:
 
-```$ git clone https://... -b main```
-Realiza o download do repositório especificando qual branch (gralho) deve baixar.
+```
+$ git clone https://...
+```
 
+Especifica a branch (galho) do repositório que será baixada, para o dispositivo local:
+
+```
+$ git clone https://... -b main
+```
