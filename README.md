@@ -40,6 +40,40 @@ Listando os commits e todas as branhcs:
 git log --all
 ```
 
+### git status
+
+Listar as alteração não commitas:
+
+```
+git status
+```
+
+### git add
+
+Marcar novas alterações para o próximo commit:
+
+```
+git add .
+```
+
+Marcar novas alterações para o próximo commit, especificando somente alguns arquivos arquivos:
+
+```
+git add -- $1
+```
+
+$1 = Caminho relativo + nome do arquivo que será adicionado.
+
+### git commit
+
+Empacotar alterações adicionadas pelo ```git add .```, salvando a versão naquele momento:
+
+```
+git commit -m '$1'
+```
+
+$1 = Mensagem / Título que nomeará o commit.
+
 ### git branch
 
 Criando uma nova branch:
@@ -48,4 +82,6 @@ Criando uma nova branch:
 $ git branch $1 
 ```
 
-$1 = Nome da nova branch
+$1 = Nome da nova branch.
+
+
