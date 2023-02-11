@@ -19,25 +19,25 @@ $ git clone https://... -b main
 Listando os commits e branchs:
 
 ```
-git log
+$ git log
 ```
 
 Listando os commits e branchs com uma linha para cada commit:
 
 ```
-git log --oneline
+$ git log --oneline
 ```
 
 Listando os commits e branchs em forma de gráfico:
 
 ```
-git log --graph
+$ git log --graph
 ```
 
 Listando os commits e todas as branhcs:
 
 ```
-git log --all
+$ git log --all
 ```
 
 ### git status
@@ -45,7 +45,7 @@ git log --all
 Listar as alteração não commitas:
 
 ```
-git status
+$ git status
 ```
 
 ### git add
@@ -53,13 +53,13 @@ git status
 Marcar novas alterações para o próximo commit:
 
 ```
-git add .
+$ git add .
 ```
 
 Marcar novas alterações para o próximo commit, especificando somente alguns arquivos arquivos:
 
 ```
-git add -- $1
+$ git add -- $1
 ```
 
 $1 = Caminho relativo + nome do arquivo que será adicionado.
@@ -69,7 +69,7 @@ $1 = Caminho relativo + nome do arquivo que será adicionado.
 Empacotar alterações adicionadas pelo ```git add .```, salvando a versão naquele momento:
 
 ```
-git commit -m '$1'
+$ git commit -m '$1'
 ```
 
 $1 = Mensagem / Título que nomeará o commit.
@@ -93,5 +93,15 @@ $ git checkout $1
 ```
 
 $1 = Nome da nova branch
+
+### git merge
+
+Trazer a versão de outra branch para o HEAD
+
+```
+$ git merge $1
+```
+
+$1 = Nome da outra branch
 
 
